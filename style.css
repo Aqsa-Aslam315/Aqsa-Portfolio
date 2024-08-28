@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(lovepik-geometric-gradual-change-background-image_400149295.jpg);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #282828;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.portfolio-container {
+    width: 80%;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    background: #425ff4;
+    border-radius: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #333;
+    color: #f0f0f0;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.color{
+    color: gold;
+}
+
+.contner1{
+    width: 400px;
+    height: 100px;
+    margin-left: 600px;
+    background-color:  #425ff4;
+    margin-top: 330px;
+    border-radius: 100px;
+}
+.photo3{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    margin-left: 50px;
+    margin-top: -400px;
+}
+.h1{
+    margin-top: 250px;
+    margin-left: 700px;
+    font-size: 60px;
+    color:gold ;
+
+}
+.h2{
+    margin-top: -30px;
+    margin-left: 770px;
+    font-size: 20px;
+    color:rgb(250, 249, 239) ;
+
+}
+
+
